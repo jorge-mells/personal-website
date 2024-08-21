@@ -8,7 +8,7 @@ git clone <url>
 ..where \<url\> is the url of this repository
 # Example usage
 TODO
-# LICENSE
+# License
 [LICENSE](LICENSE.md)
 # How to contribute
 Simply fork this project and open a pull request with your changes if you want to contribute. See [CONTRIBUTING](CONTRIBUTING.md) for more information.
