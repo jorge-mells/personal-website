@@ -5,7 +5,7 @@ To install this project simply clone the project and open the folder in a web br
 ```
 git clone <url>
 ```
-- <url> is the url of this repository
+<url> is the url of this repository
 # Example usage
 TODO
 # LICENSE
