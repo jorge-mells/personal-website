@@ -1,0 +1,93 @@
+/* font styles */
+html {
+    font-size: 15px;
+}
+
+header nav, h2, h3, p, footer ul {
+    font-family: Poppins, "Avant Garde Gothic", Roboto, sans-serif;
+}
+
+header nav {
+    font-size: 2rem;
+}
+
+h1, nav, #footer-main {
+    font-family: Recursive, "GT Ultra", cursive;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+nav {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: calc(20rem/15);
+    font-weight: 600;
+}
+
+p {
+    font-size: calc(16rem/15);
+}
+
+main footer ul {
+    font-size: calc(25rem/15);
+}
+
+section footer ul {
+    font-size: calc(16rem/15);
+}
+
+address {
+    font-family: "Source Sans Pro", Roboto, Lato, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+address p {
+    font-size: 2rem;
+}
+
+span {
+    font-size: calc(19rem/15);
+}
+
+/* colors and backgrounds */
+body {
+    background-color: #232830;
+}
+
+header nav, h2, address p, span {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ff7575;
+}
+
+nav {
+    color: #4d4d4d;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+main footer ul {
+    color: #909090;
+}
+
+h3, p, section footer ul {
+    color: #0f1217;
+}
+
+.highlighted {
+    color: #ff7575;
+}
+
+span {
+    background-color: #4699e0;
+}
