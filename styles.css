@@ -11,7 +11,7 @@ header nav {
     font-size: 2rem;
 }
 
-h1, nav, #footer-main {
+h1, nav, #main-footer {
     font-family: Recursive, "GT Ultra", cursive;
     font-style: italic;
 }
@@ -91,3 +91,78 @@ h3, p, section footer ul {
 span {
     background-color: #4699e0;
 }
+
+/* layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    grid-gap: 4rem;
+}
+
+#main-footer {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    justify-items: left;
+    list-style-type: none;
+}
+
+#main-footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+/* positioning and box styles */
+main {
+    margin: 4rem;
+}
+
+header {
+    margin: 4rem;
+}
+
+header h1, header h2 {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 4rem;
+    padding: 0px;
+}
+
+#list-icon {
+    margin-left: -2rem;
+}
+
+.first-nav-item {
+    margin-right: auto;
+}
+
+#main-footer ul {
+    padding: 0;
+}
+
+#main-footer ul li {
+    padding-top: 0.75rem;
+}
+
+.highlighted {
+    padding: 0 1.5rem;
+    border-top: 3px solid #ff7575;
+}
+
