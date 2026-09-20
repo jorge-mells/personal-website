@@ -1,0 +1,27 @@
+baseURL: https://site.jorgemells.com/
+locale: en-us
+title: George's Site
+theme:
+  - "PaperMod"
+caches:
+  images:
+    dir: :cacheDir/images
+params:
+  profileMode:
+    enabled: true
+    subtitle: "Just a space to share stuff I feel like sharing"
+    # imageUrl: "<image link>" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/georgemillsgh"
+    - name: "github"
+      url: "https://github.com/jorge-mells"
